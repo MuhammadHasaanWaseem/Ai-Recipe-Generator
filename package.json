@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@strapi/provider-upload-cloudinary": "^5.15.0",
+    "pg": "^8.16.0"
+  }
+}

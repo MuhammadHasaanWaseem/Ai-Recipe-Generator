@@ -1,0 +1,36 @@
+{
+  "name": "cookmate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.15.0",
+    "@strapi/plugin-users-permissions": "5.15.0",
+    "@strapi/strapi": "5.15.0",
+    "better-sqlite3": "11.3.0",
+    "pg": "^8.16.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "fdc80cc3-c90c-464b-a39b-b295bb61720c",
+    "installId": "afb4c2146aa340aa101f7d42168848ef9e6411797fa0034e5e8db1d3aed3f78b"
+  }
+}
