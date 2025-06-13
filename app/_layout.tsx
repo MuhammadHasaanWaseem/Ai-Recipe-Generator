@@ -16,7 +16,7 @@ export default function RootLayout() {
     endpoint: 'https://4wwx72.logto.app/',
     appId: '5axo6ekk67t5rgt5ydtvd',
     scopes: [
-      UserScope.Email
+      UserScope.Email,
     ]
   };
   const [user, setUser] = React.useState(null);

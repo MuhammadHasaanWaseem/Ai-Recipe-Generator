@@ -1,18 +1,21 @@
-import { View, Text } from 'react-native'
+import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
 import Colors from '@/services/Colors'
 import Introheader from '@/components/introheader'
+import CreateRecipe from '@/components/createrecipe'
+import Catogories from '@/components/Catogories'
 
 const Home = () => {
   return (
-    <View style={{height:'100%',padding:'10%',backgroundColor:Colors.WHITE}}>
+    <ScrollView style={{height:'100%',padding:'4%',marginTop:'5%',backgroundColor:Colors.WHITE}}>
       {/* intro component */}
       <Introheader/>
       {/* recipe ui */}
-    
+       <CreateRecipe/>
       {/* catgories ui */}
+      <Catogories/>
 
-      </View>
+      </ScrollView>
   )
 }
 

@@ -8,9 +8,9 @@ const axiosClient = axios.create({
 });
 
 const getuserbyemail = (email: string) =>
-  axiosClient.get('/User-lists?filters[email][$eq]=' + email);
+  axiosClient.get('/User-List?filters[email][$eq]=' + email);
 
-const createnewuser = (data: any) => axiosClient.post('/User-lists', { data: data });
+const createnewuser = (data: any) => axiosClient.post('/User-List', { data: data });
 
 export default {
   getuserbyemail,
